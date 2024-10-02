@@ -15,18 +15,18 @@
         <StackPanel Grid.Row="0">
             <Label Content="Цвет:" />
             <ComboBox x:Name="ColorBrush" SelectionChanged="ColorBrush_" Width="806">
-                <ComboBoxItem Content="Black"/>
-                <ComboBoxItem Content="Red"/>
-                <ComboBoxItem Content="Green"/>
-                <ComboBoxItem Content="Blue"/>
-                <ComboBoxItem Content="Yellow"/>
-                <ComboBoxItem Content="Orange"/>
-                <ComboBoxItem Content="Purple"/>
-                <ComboBoxItem Content="Pink"/>
-                <ComboBoxItem Content="Gray"/>
-                <ComboBoxItem Content="Brown"/>
-                <ComboBoxItem Content="Turquoise"/>
-                <ComboBoxItem Content="Lavender"/>
+               <ComboBoxItem Content="Красный" Tag="Red"/>
+                <ComboBoxItem Content="Синий" Tag="Blue"/>
+                <ComboBoxItem Content="Зеленый" Tag="Green"/>
+                <ComboBoxItem Content="Черный" Tag="Black"/>
+                <ComboBoxItem Content="Желтый" Tag="Yellow"/>
+                <ComboBoxItem Content="Оранжевый" Tag="Orange"/>
+                <ComboBoxItem Content="Фиолетовый" Tag="Purple"/>
+                <ComboBoxItem Content="Розовый" Tag="Pink"/>
+                <ComboBoxItem Content="Серый" Tag="Gray"/>
+                <ComboBoxItem Content="Коричневый" Tag="Brown"/>
+                <ComboBoxItem Content="Бирюзовый" Tag="Turquoise"/>
+                <ComboBoxItem Content="Лаванда" Tag="Lavender"/>
             </ComboBox>
 
             <Label Content="Размер кисти:" />
